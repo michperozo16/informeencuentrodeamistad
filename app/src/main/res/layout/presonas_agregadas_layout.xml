@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:fontFamily="@font/giloryextrabold"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/tpredicar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Predicar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/tasistio_alencuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tpredicar"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Asistió al encuentro"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/tesmiembro_deencuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tasistio_alencuentro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Es miembro de encuentro"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/tpastorear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tesmiembro_deencuentro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Pastorear"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/tasistencia_domingo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tpastorear"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Asistencia domingo"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/tguia_decrecimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tasistencia_domingo"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Guía de crecimiento"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+            <TextView
+                android:id="@+id/tdiscipulado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tguia_decrecimiento"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Discipulado"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/tpreparar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tdiscipulado"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Preparar"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tdiezmo_ofrendas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tpreparar"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Diezmo y ofrendas"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/tcapacitacion_postenciales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tdiezmo_ofrendas"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Capacitación m. potenciales"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/tplantar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tcapacitacion_postenciales"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Plantar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/tgana_yocuidagente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tplantar"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Gana y/o cuida gente"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+            <TextView
+                android:id="@+id/tentiende_lavision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tgana_yocuidagente"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="* Entiende la visión (M.E.)"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/gilorymedium"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/antes">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:indeterminateTint="@color/purple_500"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

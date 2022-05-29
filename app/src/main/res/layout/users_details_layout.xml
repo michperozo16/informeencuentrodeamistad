@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:fontFamily="@font/giloryextrabold"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/title_admin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="20dp"
+        android:overScrollMode="never">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+            
+            <TextView
+                android:id="@+id/title_nombre_ministro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Nombre del ministro"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_nombre_ministro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_nombre_ministro"
+                android:layout_marginTop="10dp"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/title_ministros_potenciales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/t_nombre_ministro"
+                android:layout_marginTop="15dp"
+                android:text="Ministros potenciales"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_ministros_potenciales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_ministros_potenciales"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/title_direccion_encuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_ministros_potenciales"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Dirección del encuentro"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_direccion_encuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_direccion_encuentro"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/title_horario_encuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_direccion_encuentro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Horario del encuentro"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_horario_encuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_horario_encuentro"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/title_fecha_encuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_horario_encuentro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Fecha del encuentro"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_fecha_encuentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_fecha_encuentro"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/title_tema_compartido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_fecha_encuentro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Tema compartido"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_tema_compartido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_tema_compartido"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/title_informacion_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_tema_compartido"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Información personal"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_informacion_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_informacion_personal"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/title_nombre_personas_ministro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_informacion_personal"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/giloryextrabold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Nombre de las personas que minitró"/>
+            <TextView
+                android:id="@+id/t_persona_ministro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/title_nombre_personas_ministro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gilorymedium"/>
+
+            <TextView
+                android:id="@+id/title_contacto_porentregasdecartas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_persona_ministro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Contacto por entrega de cartas"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/giloryextrabold"/>
+            <TextView
+                android:id="@+id/t_contacto_porentregacartas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/title_contacto_porentregasdecartas"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/title_espacio_testimonios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_contacto_porentregacartas"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/giloryextrabold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Testimonios, áreas problemáticas, contestación a oraciones"
+                android:singleLine="true"/>
+            <TextView
+                android:id="@+id/t_espacio_testimonios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/title_espacio_testimonios"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gilorymedium"
+                android:textSize="16sp"
+                android:text="No hay testimonios"/>
+
+            <TextView
+                android:id="@+id/title_proposito_delavision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/t_espacio_testimonios"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:text="Propósito de la visión"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="@font/giloryextrabold"/>
+            <Button
+                android:id="@+id/btn_ver_personas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_proposito_delavision"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="ver personas agregadas"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/antes">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:indeterminateTint="@color/purple_500"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

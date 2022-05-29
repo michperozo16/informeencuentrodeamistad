@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Informe de ministros</string>
+    <string name="titleMain">Informe encuentro de\namistad</string>
+    <string name="codigos">E  - Evangelismo\nVP - Visita personal\nHO - Hospital\nGC - Guía de crecimiento\nTE - Teléfono\nCA - Carta\nAS - Ayuda social</string>
+    <string name="use_este_espacio">-Por favor use este espacio para testimonios, áreas problemáticas, contestación a oraciones, información que los pastores deben saber acerca de sí mismo o las personas con las cuales está trabajando</string>
+    <string-array name="array_info_personal">
+        <item>Oré cada día y medité la palabra</item>
+        <item>Preparé bien el tema</item>
+        <item>Diezmé</item>
+        <item>Ofrendé</item>
+        <item>Asistí a mi equipo</item>
+        <item>Evangelicé</item>
+        <item>Oré en el espíritu</item>
+        <item>Oré por mis pastores, líderes, miembros del encuentro</item>
+        <item>Tomé tiempo para mi familia</item>
+        <item>Asistí al grupo de intercesión</item>
+    </string-array>
+</resources>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "275013856052",
+    "firebase_url": "https://iglesia-navarra-f822a-default-rtdb.firebaseio.com",
+    "project_id": "iglesia-navarra-f822a",
+    "storage_bucket": "iglesia-navarra-f822a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275013856052:android:54c3aeb959d3e1210b9361",
+        "android_client_info": {
+          "package_name": "apps.icm.iglesianavarra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275013856052-i8npmnag5158vb8hhp5d36o31n9l2m43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfouh62BE2URb8Q4hxrOLBzmrYLjb9f60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275013856052-i8npmnag5158vb8hhp5d36o31n9l2m43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275013856052:android:c71019d6f3fb54c00b9361",
+        "android_client_info": {
+          "package_name": "com.vivalavida.diariodeintimidad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275013856052-i8npmnag5158vb8hhp5d36o31n9l2m43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfouh62BE2URb8Q4hxrOLBzmrYLjb9f60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275013856052-i8npmnag5158vb8hhp5d36o31n9l2m43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275013856052:android:5d3acb68e3fcf0760b9361",
+        "android_client_info": {
+          "package_name": "com.vivalavida.informeencuentrodeamistad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275013856052-i8npmnag5158vb8hhp5d36o31n9l2m43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfouh62BE2URb8Q4hxrOLBzmrYLjb9f60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275013856052-i8npmnag5158vb8hhp5d36o31n9l2m43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
