@@ -72,12 +72,10 @@ public class AdminFragment extends Fragment implements TitleClickListener, Clear
                     userModel um = ds.getValue(userModel.class);
                     userList.add(um);
                     keylist.add(key);//parent child
-                    setRvUsers();
-                    //Toast.makeText(getActivity(), ""+keylist.get(0), Toast.LENGTH_SHORT).show();
-                    layoutAntes.setVisibility(View.GONE);
                 }
+                layoutAntes.setVisibility(View.GONE);
+                setRvUsers();
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 

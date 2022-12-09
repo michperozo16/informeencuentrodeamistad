@@ -56,40 +56,40 @@ public class MainActivity extends AppCompatActivity {
 
         switch(month) {
             case 1:
-                nombreMes = "enero";
+                nombreMes = "Enero";
                 break;
             case 2:
-                nombreMes = "febrero";
+                nombreMes = "Febrero";
                 break;
             case 3:
-                nombreMes = "marzo";
+                nombreMes = "Marzo";
                 break;
             case 4:
-                nombreMes = "abril";
+                nombreMes = "Abril";
                 break;
             case 5:
-                nombreMes = "mayo";
+                nombreMes = "Mayo";
                 break;
             case 6:
-                nombreMes = "junio";
+                nombreMes = "Junio";
                 break;
             case 7:
-                nombreMes = "julio";
+                nombreMes = "Julio";
                 break;
             case 8:
-                nombreMes = "agosto";
+                nombreMes = "Agosto";
                 break;
             case 9:
-                nombreMes = "septiembre";
+                nombreMes = "Septiembre";
                 break;
             case 10:
-                nombreMes = "octubre";
+                nombreMes = "Octubre";
                 break;
             case 11:
-                nombreMes = "noviembre";
+                nombreMes = "Noviembre";
                 break;
             case 12:
-                nombreMes = "diciembre";
+                nombreMes = "Diciembre";
                 break;
         }
 

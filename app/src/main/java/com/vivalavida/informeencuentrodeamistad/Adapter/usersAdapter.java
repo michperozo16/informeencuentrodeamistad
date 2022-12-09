@@ -1,5 +1,6 @@
 package com.vivalavida.informeencuentrodeamistad.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -43,16 +44,20 @@ public class usersAdapter extends RecyclerView.Adapter<usersAdapter.MyViewHolder
         return new MyViewHolder(view);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         final userModel um = mlist.get(position);
-        holder.title.setText(um.getNombre());
         correo = um.getCorreo();
 
         if (WhatIs.equals("date")){
             holder.img.setBackground(context.getResources().getDrawable(R.drawable.ic_baseline_calendar_month_24));
+            holder.title.setText(um.getNombre());
         }else if (WhatIs.equals("user")){
             holder.img.setBackground(context.getResources().getDrawable(R.drawable.ic_baseline_person_24));
+            holder.title.setText(holder.getAdapterPosition()+1+". "+um.getNombre());
+        }else if (WhatIs.equals("")){
+            holder.title.setText(holder.getAdapterPosition()+1+". "+um.getNombre());
         }
     }
 

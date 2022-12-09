@@ -23,7 +23,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="20dp"
                 android:singleLine="true"
-                android:text="Propósito de la mision"
+                android:text="Propósito de la Visión"
                 android:fontFamily="@font/giloryextrabold"
                 android:textSize="25sp"
                 android:textColor="@color/black" />
@@ -96,9 +96,6 @@
                 app:layout_constraintTop_toTopOf="@id/tesmiembro_deencuentro"
                 app:layout_constraintBottom_toBottomOf="@id/tesmiembro_deencuentro"
                 app:layout_constraintEnd_toEndOf="parent"/>
-
-
-
 
             <TextView
                 android:id="@+id/tpastorear"

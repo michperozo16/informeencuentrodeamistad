@@ -54,7 +54,7 @@
                 android:gravity="start|center"
                 android:layout_marginStart="20dp"
                 android:singleLine="true"
-                android:text="corage el perro cobarde"
+                android:text=""
                 android:textColor="@color/black"
                 android:fontFamily="@font/gilorymedium"
                 android:textSize="17sp"/>

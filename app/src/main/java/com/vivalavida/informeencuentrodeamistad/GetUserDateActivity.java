@@ -71,19 +71,19 @@ public class GetUserDateActivity extends AppCompatActivity implements TitleClick
                 for (DataSnapshot ds : snapshot.getChildren()){
                     userModel um = new userModel();
                     um.setNombre(ds.getKey());
+
                     if (!um.getNombre().equalsIgnoreCase("correo")) {
                         if (!um.getNombre().equalsIgnoreCase("nombre")){
-                            if (!um.getNombre().equalsIgnoreCase("contraseña")) {
+                            if (!um.getNombre().contains("contraseña")) {
                                 if (!um.getNombre().equalsIgnoreCase("rol")) {
                                     dateList.add(um);
                                 }
                             }
                         }
                     }
-                    setRvDate();
-
-                    layoutAntes.setVisibility(View.GONE);
                 }
+                layoutAntes.setVisibility(View.GONE);
+                setRvDate();
             }
 
             @Override
